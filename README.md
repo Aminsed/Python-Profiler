@@ -22,7 +22,7 @@ To use the profiler, follow these steps:
 
 Example:
 ```python
-from profiler import Profiler
+from detailed_profiler import Profiler
 
 @Profiler(output_file="profile_results.json")
 def my_function():
